@@ -7,7 +7,7 @@ metadata:
     kargo.akuity.io/color: red
     argocd.argoproj.io/sync-wave: "2"
 spec:
-  shard: dev
+  shard: test
   requestedFreight:
   - origin:
       kind: Warehouse
