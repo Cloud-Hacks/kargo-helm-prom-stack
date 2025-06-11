@@ -5,6 +5,14 @@ metadata:
   namespace: kargo-helm-prom-stack
   annotations:
     argocd.argoproj.io/sync-wave: "1"
+---
+apiVersion: kargo.akuity.io/v1alpha1
+kind: ProjectConfig
+metadata:
+  name: kargo-helm-prom-stack
+  namespace: kargo-helm-prom-stack
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   promotionPolicies:
   - stage: dev
