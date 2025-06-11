@@ -9,7 +9,7 @@ spec:
       repoURL: https://github.com/cloud-hacks/kargo-helm-prom-stack.git
       revision: HEAD
       directories:
-      - path: kube-prometheus-stack/env/*
+      - path: kube-prometheus-stack/env/test
   template:
     metadata:
       name: 'kube-prometheus-stack-test'
