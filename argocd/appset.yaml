@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/afzal442/kargo-helm-prom-stack.git
+      repoURL: https://github.com/cloud-hacks/kargo-helm-prom-stack.git
       revision: HEAD
       directories:
       - path: kube-prometheus-stack/env/*
@@ -21,7 +21,7 @@ spec:
         name: 'test'
       project: kargo-helm
       source:
-        repoURL: https://github.com/afzal442/kargo-helm-prom-stack.git
+        repoURL: https://github.com/cloud-hacks/kargo-helm-prom-stack.git
         targetRevision: 'env/test'
         path: .
       syncPolicy:
